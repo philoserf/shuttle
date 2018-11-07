@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -o errexit
+set -o pipefail
+[[ ! -z $DEBUG ]] && set -o xtrace
+set -o nounset
+
+TMPDIR=$(mktemp -d)
+
+docker build -t shuttle:local .
+docker run --name tmp shuttle:local
+docker cp tmp:/payload "$TMPDIR"
+docker rm tmp
+
+ls -lR "$TMPDIR"
+rm -rf "$TMPDIR"
