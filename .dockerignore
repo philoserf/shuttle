@@ -1,1 +1,7 @@
+.git/
+.github/
+docs/
+LICENSE
 payload/.gitkeep
+README.md
+test

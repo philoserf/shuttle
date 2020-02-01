@@ -3,7 +3,7 @@ FROM golang:1.13-alpine3.10 as builder
 WORKDIR /
 COPY main.go go.mod /
 ENV CGO_ENABLED 0
-RUN go build -tags 'static' -ldflags '-extldflags "-static -fno-PIC"' .
+RUN go build .
 
 # A payload shuttle image
 #
