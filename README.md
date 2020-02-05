@@ -5,8 +5,7 @@
 [![Build Status][1]][1a]
 [![Docker][2]][2a]
 [![Quay][3]][3a]
-[![Release][4]][4a]
-[![Stability:Experimental][5]][5a]
+[![Stability][4]][4a]
 
 Fork; add content to `./payload/`; build, tag, and publish the image; deploy the image; use the content.
 
@@ -18,7 +17,5 @@ This may seem a little Rube Goldberg. I use it when security requires and allows
 [2a]: https://hub.docker.com/r/philoserf/shuttle/builds/
 [3]: https://img.shields.io/badge/quay-automated_build-blue.svg
 [3a]: https://quay.io/repository/philoserf/shuttle
-[4]: https://img.shields.io/github/release/philoserf/shuttle.svg
-[4a]: https://github.com/philoserf/shuttle/releases/latest
-[5]: https://masterminds.github.io/stability/experimental.svg
-[5a]: https://masterminds.github.io/stability/experimental.html
+[4]: https://masterminds.github.io/stability/maintenance.svg
+[4a]: https://masterminds.github.io/stability/maintenance.html
