@@ -6,6 +6,7 @@
 [![Docker][2]][2a]
 [![Quay][3]][3a]
 [![Stability][4]][4a]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fphiloserf%2Fshuttle.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fphiloserf%2Fshuttle?ref=badge_shield)
 
 Fork; add content to `./payload/`; build, tag, and publish the image; deploy the image; use the content.
 
@@ -19,3 +20,7 @@ This may seem a little Rube Goldberg. I use it when security requires and allows
 [3a]: https://quay.io/repository/philoserf/shuttle
 [4]: https://masterminds.github.io/stability/maintenance.svg
 [4a]: https://masterminds.github.io/stability/maintenance.html
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fphiloserf%2Fshuttle.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fphiloserf%2Fshuttle?ref=badge_large)
