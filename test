@@ -2,7 +2,7 @@
 
 set -o errexit
 set -o pipefail
-[[ ! -z $DEBUG ]] && set -o xtrace
+[[ -n $DEBUG ]] && set -o xtrace
 set -o nounset
 
 TMPDIR=$(mktemp -d)
