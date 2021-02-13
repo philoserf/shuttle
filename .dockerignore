@@ -1,7 +1,12 @@
 .git/
 .github/
 docs/
+hack/
+
+.deepsource.toml
+.whitespace
 LICENSE
 payload/.gitkeep
 README.md
+renovate.json
 test

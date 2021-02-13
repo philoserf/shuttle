@@ -1,16 +1,20 @@
 # Shuttle
 
-> a tool image for moving content into a container running platform
+A tool image for moving content into a container running platform
 
 [![Build Status][1]][1a]
 [![Docker][2]][2a]
 [![Quay][3]][3a]
 [![Stability][4]][4a]
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fphiloserf%2Fshuttle.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fphiloserf%2Fshuttle?ref=badge_shield)
 
 Fork; add content to `./payload/`; build, tag, and publish the image; deploy the image; use the content.
 
 This may seem a little Rube Goldberg. I use it when security requires and allows this method.
+
+<hr>
+| [home](https://philoserf.github.io/) | [philoserf.com](https://philoserf.com/) |
+
+<!-- ref -->
 
 [1]: https://cloud.drone.io/api/badges/philoserf/shuttle/status.svg
 [1a]: https://cloud.drone.io/philoserf/shuttle
