@@ -2,14 +2,14 @@
 
 A tool image for moving content into a container running platform
 
-[![Build Status][1]][1a]
-[![Docker][2]][2a]
-[![Quay][3]][3a]
+[![Build Status][1]][1a] [![Docker][2]][2a] [![Quay][3]][3a]
 [![Stability][4]][4a]
 
-Fork; add content to `./payload/`; build, tag, and publish the image; deploy the image; use the content.
+Fork; add content to `./payload/`; build, tag, and publish the image; deploy the
+image; use the content.
 
-This may seem a little Rube Goldberg. I use it when security requires and allows this method.
+This may seem a little Rube Goldberg. I use it when security requires and allows
+this method.
 
 <hr>
 | [home](https://philoserf.github.io/) | [philoserf.com](https://philoserf.com/) |
