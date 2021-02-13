@@ -1,4 +1,4 @@
-FROM golang:1.14-alpine3.11 as builder
+FROM golang:1.15-alpine3.13 as builder
 
 WORKDIR /
 COPY main.go go.mod /
