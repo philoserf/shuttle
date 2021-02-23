@@ -8,4 +8,4 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: markdownlint-cli2-action
-        uses: DavidAnson/markdownlint-cli2-action@v1.0.1
+        uses: DavidAnson/markdownlint-cli2-action@v2.0.0
