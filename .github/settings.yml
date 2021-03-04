@@ -1,6 +1,6 @@
 repository:
   name: shuttle
-  description: Shuttle—A tool image for moving content into a container running platform
+  description: A tool image for moving content into a container running platform
   homepage: https://philoserf.github.io/shuttle
   topics: docker-image, container-image
   private: false
